@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/slider.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="slides" id="slider1">
+            <img src="images/slide1.jpg" alt="image" width="100%">
+            
+        </div>
+        <div class="slides" id="slider2">
+            <img src="images/slide2.avif" alt="" width="100%">
+
+        </div>
+        <div class="slides" id="slider3">
+            <img src="images/slide3.avif" alt="" width="100%">
+
+        </div>
+
+
+        <div class="buttons">
+            <div class="prev">
+                <i class="fa-solid fa-chevron-left" onclick="showSlide(-1)"></i>
+
+            </div>
+                <div class="next">
+                    <i class="fa-solid fa-chevron-right" onclick="showSlide(1)"></i>
+    
+                </div>
+
+        </div>
+
+    </div>
+    
+
+
+    <script src="js/slider.js"></script>
+</body>
+</html>

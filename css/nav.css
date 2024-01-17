@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: darkorange;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logopart{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 35px;
+}
+.toggleIcon{
+    display: none;
+    
+}
+.nav_list{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.nav_list p a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: black;
+}
+.nav_list p .active{
+    color: black;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px grey;
+}
+.nav_list p a:hover{
+    border-bottom: 2px solid black;
+}
+
+@media screen and(max-width:767px){
+    nav{
+        flex-direction: column;
+
+    }
+    .logopart{
+        width: 100%;
+
+    }
+    .toggleIcon{
+        display: block;
+    }
+    
+}
